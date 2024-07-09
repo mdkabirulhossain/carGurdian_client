@@ -56,6 +56,7 @@ const NavBar = () => {
             <div className="navbar-end">
             {
                 users?.email? <>
+                <Link to='/bookings' className="font-semibold m-4">My Bookings</Link>
                 <button onClick={handleLogout} className="font-semibold m-4">Logout</button>
                    
                 </> : <>
